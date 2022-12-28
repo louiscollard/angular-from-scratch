@@ -1,0 +1,25 @@
+{
+	"name": "angular-from-scratch",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "vite",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/louiscollard/angular-from-scratch.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/louiscollard/angular-from-scratch/issues"
+	},
+	"homepage": "https://github.com/louiscollard/angular-from-scratch#readme",
+	"devDependencies": {
+		"typescript": "^4.9.4",
+		"vite": "^4.0.3"
+	}
+}
