@@ -14,12 +14,12 @@
 					<h1>Recréer Angular</h1>
 				</header>
 
-				<input type="text" placeholder="Numéro de téléphone" id="mobile-number" />
-				<input type="text" placeholder="Numéro de fixe" id="fix-number" />
-				<input type="text" placeholder="Numéro de télécopie" id="fax-number" />
+				<input phone-number with-spaces="false" border-color="green" type="text" placeholder="Numéro de téléphone" id="mobile-number" />
+				<input phone-number type="text" placeholder="Numéro de fixe" id="fix-number" />
+				<input credit-card type="text" placeholder="Numéro de carte de crédit" id="credit-card-number" />
 			</article>
 		</div>
 
-		<script src="./src/app.ts"></script>
+		<script src="./src/app.ts" type="module"></script>
 	</body>
 </html>
